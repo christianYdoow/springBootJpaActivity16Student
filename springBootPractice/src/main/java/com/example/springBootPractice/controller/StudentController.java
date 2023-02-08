@@ -21,7 +21,7 @@ public class StudentController {
     }
 
     @PostMapping("/students")
-    public @ResponseBody String addStudent(@RequestParam String studentFirstName,
+    public  @ResponseBody String addStudent(@RequestParam String studentFirstName,
                                            @RequestParam String studentLastName,
                                            @RequestParam String studentEmail,
                                            @RequestParam String bday,
