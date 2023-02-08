@@ -9,7 +9,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("/student")
+@RequestMapping("/api")
 public class StudentController {
 
     private final StudentServiceImpl studentServiceImpl;
